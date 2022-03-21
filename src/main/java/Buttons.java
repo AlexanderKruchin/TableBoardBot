@@ -6,8 +6,9 @@ import lombok.RequiredArgsConstructor;
 public enum Buttons {
     AddGame("Добавить игру")
     ,DeleteGame("Удалить игру")
-    ,StartVote("Начать голосование")
     ,RefreshGameList("Очистить список");
+    ,StartVote("Начать голосование")
+    
     private final String id;
 
 }
